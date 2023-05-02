@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <title>
+            Please Register
+        </title>
+        <link href="styleRegister.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="login-panel">
+            <form>
+                <h1>Зареєструйтесь</h1>
+                <input type="text" placeholder="Ім'я">
+                <input type="text" placeholder="Емайл">
+                <div class="radioButton">
+                    <input type="radio" name="myRadios" value="Чоловіча" checked="true" id="male">
+                        <label for="male">Чоловіча</label>
+                    <input type="radio" name="myRadios" value="Жіноча" id="female">
+                        <label for="female">Жіноча</label>
+                </div>
+                <div class="selectStyle">
+                    <label for="birth-year">Виберіть рік народження:</label>
+                    <select id="birth-year"></select>
+                </div>
+                <button type="submit">Підтвердити</button>   
+            </form> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+

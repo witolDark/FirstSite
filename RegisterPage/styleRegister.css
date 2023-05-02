@@ -1,0 +1,88 @@
+body {
+    background: url("../Resources/maraphon.jpg") no-repeat center top fixed;
+    background-size: 100% 100%;
+}
+
+.login-panel {  
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} 
+
+form {   
+    border-radius: 5px;   
+    box-sizing: border-box;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(11, 87, 187, 0.3);
+} 
+
+h1 {   
+    text-align: center; 
+    color: black;
+}  
+
+input, button {   
+    display: block;   
+    margin-bottom: 10px; 
+}  
+
+input[type="text"] 
+button[type="submit"]
+.radioButton, .selectStyle {
+    border: none;  
+    border-radius: 5px; 
+}
+
+input[type="text"] { 
+    width: 100%;
+    padding: 10px 0 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+} 
+
+button[type="submit"] { 
+    background-color: #4CAF50;  
+    color: #fff;   
+    padding: 10px;  
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.radioButton {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 0 5px 0 10px;
+    padding: initial;
+    border: initial;
+}
+
+.selectStyle {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+}
+
+
