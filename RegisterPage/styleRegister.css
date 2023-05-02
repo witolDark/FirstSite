@@ -31,8 +31,8 @@ input, button {
     margin-bottom: 10px; 
 }  
 
-input[type="text"] 
-button[type="submit"]
+input[type="text"] ,
+button[type="submit"] ,
 .radioButton, .selectStyle {
     border: none;  
     border-radius: 5px; 
